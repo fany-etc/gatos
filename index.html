@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-         <nav class="navbar navbar-expand-lg fixed-top ">
+         <nav class="navbar navbar-expand-lg fixed-top  ">
           <div class="navbar-brand">
                     <a href="index.html">
                         <img class="logo" src="imagenes/logob.png" alt="/imagenes/logob.png">
@@ -20,18 +20,18 @@
        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
             aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" ></span>
             </button>
-    <div class="collapse navbar-collapse" id="navbarSuport">
+    <div class="collapse navbar-collapse" id="navbarSuport" >
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#" data-value="about">Galeria</a>
+                <a class="nav-link" href="#" data-value="galeria">Galeria</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-value="portafolio">Cuidados</a>
+                <a class="nav-link" href="#" data-value="cuidados">Cuidados</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" data-value="blog">Unete</a>
+            <li class="nav-item-u">
+                <a class="nav-link"  data-toggle="modal" data-target="#exampleModal" data-value="unete"> Unete</a>
             </li>
            
         </ul>
@@ -97,26 +97,56 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imagenes/c3.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+        <h2>Galeria</h2>
+        <p>Inscribete y podras tener acceso a la galeria de imagenes y videos, tambien podras compartir tus imagenes</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imagenes/c2.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+        <h2>Comunidad</h2>
+        <p>Hay cientos de gato lovers queriendo compartir sus experiencias y vivencias con sus felinos amigos</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imagenes/c1.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+        <h2>Promociones</h2>
+        <p>Obten descuentos en las tiendas exclusivas y adquiere accesorios para tus mascotas</p>
+        <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="unete">Inscribete</button>
+        </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
  
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Crear tu cuenta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-usuario" class="col-form-label">Usuario</label>
+                <input type="text" class="form-control" id="recipient-usuario">
+              </div>
+              <div class="form-group">
+                <label for="recipient-email" class="col-form-label">email</label>
+                <input type="text" class="form-control" id="recipient-email">
+              </div>
+              <div class="form-group">
+                <label for="recipient-contra" class="col-form-label">contraseña</label>
+                <input type="text" class="form-control" id="recipient-contra">
+              </div>
+            
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <hr class="featurette-divider">
