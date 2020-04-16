@@ -1,6 +1,20 @@
 html,body{
     height: 100%;
 }
+header{
+    margin-bottom: 50px;
+   
+}
+.navbar{
+    background-color: rgb(255, 158, 41);
+}
+.nav-link{
+    color: azure;
+}
+.logo{
+    width: 80%;
+    
+}
 .carousel-item active {
     position: relative;
     width: 100%;
@@ -9,6 +23,20 @@ html,body{
 .img-carousel{
    
     min-width: 100%;
-    height: 70vh;
+  
    
+}
+.containerMarketing{
+    padding-top: 200px;
+}
+.textobanner{
+    text-shadow: 2px 2px 2px #000000;
+
+}
+h1{
+    text-shadow: 2px 2px 2px #000000;
+
+}
+.content{
+    margin-top: 50px;
 }
