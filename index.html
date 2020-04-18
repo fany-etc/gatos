@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-         <nav class="navbar navbar-expand-lg fixed-top ">
+         <nav class="navbar navbar-expand-lg fixed-top  ">
           <div class="navbar-brand">
                     <a href="index.html">
                         <img class="logo" src="imagenes/logob.png" alt="/imagenes/logob.png">
@@ -20,18 +20,21 @@
        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
             aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" ></span>
             </button>
-    <div class="collapse navbar-collapse" id="navbarSuport">
+    <div class="collapse navbar-collapse" id="navbarSuport" >
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#" data-value="about">Galeria</a>
+                <a class="nav-link" href="galeria.html" data-value="galeria">Galeria</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-value="portafolio">Cuidados</a>
+                <a class="nav-link" href="cuidados.html" data-value="cuidados">Cuidados</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" data-value="blog">Unete</a>
+            <li class="nav-item-u">
+                <a class="nav-link"  data-toggle="modal" data-target="#exampleModal" data-value="unete" id="unete"> Unete</a>
+                <a class="nav-link d-none" id="usuario">Hola XXX
+
+          </a>
             </li>
            
         </ul>
@@ -52,9 +55,9 @@
         <img class="img-carousel" src="imagenes/banner1.jpg">
         <div class="container">
           <div class="carousel-caption ">
-            <h1>Example headline.</h1>
-            <p class="textobanner">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <h1> Queremos conocer tus gatos</h1>
+            <p class="textobanner">Forma parte de una gran comunidad en torno a ellos. Podremos ir intercambiando experiencias, consejos y compartir las alegrías y preocupaciones que pueden darnos estos pequeños habitantes de nuestra casa y de nuestro corazón.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button"data-toggle="modal" data-target="#exampleModal" data-value="unete">Inscribete</a></p>
           </div>
         </div>
       </div>
@@ -62,9 +65,9 @@
         <img class="img-carousel" src="imagenes/banner2.jpg" >
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p class="textobanner">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <h1>Nos encantan los gatos</h1>
+            <p class="textobanner"> No lo podemos remediar, estos pequeños felinos nos conquistan el corazón con sus contoneos, su energía y su ronroneo</p>
+            <p><a class="btn btn-lg btn-primary" href="galeria.html" role="button">Galeria</a></p>
           </div>
         </div>
       </div>
@@ -72,9 +75,9 @@
         <img class="img-carousel" src="imagenes/banner3.jpg" >
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p class="textobanner">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <h1>Salud y prevención</h1>
+            <p class="textobanner">Acceso a directorio veterinaro y exclusivos descuentos en accesorios sobre productos, antiparasitarios y repelentes</p>
+            <p><a class="btn btn-lg btn-primary" href="#conocemas" role="button">Conoce más</a></p>
           </div>
         </div>
       </div>
@@ -97,37 +100,68 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imagenes/c3.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+        <h2>Galeria</h2>
+        <p>Inscribete y podras tener acceso a la galeria de imagenes y videos, tambien podras compartir tus imagenes</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imagenes/c2.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+        <h2>Comunidad</h2>
+        <p>Hay cientos de gato lovers queriendo compartir sus experiencias y vivencias con sus felinos amigos</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imagenes/c1.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+        <h2>Promociones</h2>
+        <p>Obten descuentos en las tiendas exclusivas y adquiere accesorios para tus mascotas</p>
+        <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="unete">Inscribete</button>
+        </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
  
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Crear tu cuenta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-usuario" class="col-form-label">Usuario</label>
+                <input type="text" class="form-control" id="recipient-usuario">
+              </div>
+              <div class="form-group">
+                <label for="recipient-email" class="col-form-label">email</label>
+                <input type="text" class="form-control" id="recipient-email">
+              </div>
+              <div class="form-group">
+                <label for="recipient-contra" class="col-form-label">contraseña</label>
+                <input type="text" class="form-control" id="recipient-contra">
+              </div>
+            
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" id="ingreso">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <hr class="featurette-divider"id="conocemas">
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
+    <div class="row featurette" >
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            <iframe   width="440" height="265" src="https://www.youtube.com/embed/HNrfRx_XUzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen> </iframe>
+
       </div>
     </div>
 
@@ -139,7 +173,7 @@
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300" src="imagenes/g5.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
       </div>
     </div>
 
@@ -151,7 +185,7 @@
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300" src="imagenes/g8.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect></img>
       </div>
     </div>
 
@@ -164,14 +198,14 @@
 </section>
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    <p class="float-right"><a href="#">Volver arriba</a></p>
+    <p>© 2020 Tu gato, Inc. · <a href="#">Privacidad</a> · <a href="#">Terms</a></p>
   </footer>
 </main>
 
    
 </body>
-
+<script src="script/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
